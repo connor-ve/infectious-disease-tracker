@@ -59,7 +59,11 @@ npm start
 
 ## My role
 
-<!-- Fill in: e.g. built the data pipeline, ETL, RDS setup, and the Lambda API -->
+I owned the cloud infrastructure, data engineering and DevOps for the project:
+
+- **Cloud infrastructure:** set up the AWS environment: MySQL on RDS, the Lambda API behind API Gateway, and hosting the React app on Amplify.
+- **Data engineering:** wrote the Python scrapers for CDC and New York Times data, and the ETL that cleans it and loads the weekly case, population and prediction tables into MySQL.
+- **DevOps:** handled deployments and environment configuration for the team, from the database to the Lambda packaging to the Amplify builds.
 
 ## Data sources
 
