@@ -1,5 +1,7 @@
 # Infectious Disease Tracker
 
+> **Archived project.** This repository is kept as a record of a 2023 senior design project and is not maintained. The AWS resources (RDS database, Lambda API, Amplify site) are no longer live, so the app will not run as-is. The code is here for reference only.
+
 Senior design capstone, Cleveland State University (Spring 2023), built by a five-person team.
 
 A web app for tracking infectious diseases across the United States. It collects weekly case data from the CDC and the New York Times, stores it in MySQL on AWS RDS, serves it through a serverless API, and shows it on an interactive US map with state rankings, state-to-state comparisons, and predicted case counts for the rest of the year.
@@ -35,7 +37,9 @@ CDC NNDSS / CDC WONDER / NYT COVID data
 **Cloud:** AWS RDS, Lambda, API Gateway, Amplify
 **Frontend:** React, D3, Chart.js, MUI, Framer Motion
 
-## Running locally
+## How it was run
+
+These steps are kept for reference. Running them now would need a new MySQL/RDS instance and a new Lambda deployment.
 
 **ETL:** copy `etl/.env.example` to `etl/.env` and fill in your MySQL connection, then:
 ```bash
